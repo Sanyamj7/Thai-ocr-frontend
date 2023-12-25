@@ -17,7 +17,7 @@ let DateofIssue = "";
 let DateofExpiry = "";
 
 function AddThisData(AddData) {
-  fetch("http://localhost:3004/product", {
+  fetch("https://thai-id-ocr-app.vercel.app/product", {
     method: "POST",
     body: JSON.stringify(AddData),
     headers: {
@@ -104,7 +104,7 @@ class App extends React.Component {
 
     // Fetch data using Axios without async/await
     axios
-      .get("http://localhost:3004/product")
+      .get("https://thai-id-ocr-app.vercel.app/product")
       .then((response) => {
         checkdata = response.data;
         console.log(checkdata);
@@ -152,7 +152,7 @@ class App extends React.Component {
     console.log(identificationNumber);
     // Make a PUT request to update data based on identification number
     axios
-      .put(`http://localhost:3004/product/${identificationNumber}`, formData)
+      .put(`https://thai-id-ocr-app.vercel.app/product/${identificationNumber}`, formData)
       .then((response) => {
         console.log("Data updated successfully:", response.data);
         // You can update state or perform other actions upon successful update
@@ -182,7 +182,7 @@ class App extends React.Component {
 
     // Make a POST request to add data
     axios
-      .post("http://localhost:3004/product", formData)
+      .post("https://thai-id-ocr-app.vercel.app/product", formData)
       .then((response) => {
         console.log("Data added successfully:", response.data);
         this.setState({ showupdate: true });
@@ -198,7 +198,7 @@ class App extends React.Component {
     let selectedId = idtodelete;
 
     axios
-      .delete(`http://localhost:3004/product/${selectedId}`)
+      .delete(`https://thai-id-ocr-app.vercel.app/product/${selectedId}`)
       .then((response) => {
         // Refresh or fetch updated data after deletion
       })
