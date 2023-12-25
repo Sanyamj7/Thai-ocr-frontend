@@ -1,6 +1,22 @@
 # React-Tesseract-OCR
 A simple react JS implementation integration of Tessearct OCR using Tesseract JS. User uploads the image (JPG/ PNG) amy image file, And Text is parsed from it.
 Click to get the tutorial of the project.[here](https://main--serene-bublanina-534604.netlify.app/)
+### Setup
+- **Clone**
+
+      git clone https://github.com/Sanyamj7/Thai-ocr-frontend.git
+- **Node.js**
+Download Node.js from : https://nodejs.org/en/download/
+
+
+### Commands
+
+- Install necessarily Node.js packages
+
+      npm install
+- Deploy and run the Back-end application
+
+      npm start
 ## Available Scripts
 
 In the project directory, you can run:
