@@ -1,6 +1,6 @@
 {
-  "name": "react-tesseract-ocr",
-  "description": "Tesseract OCR implementation in React JS",
+  "name": "Thai-ocr-frontend",
+  "description": "OCR implementation in React JS",
   "version": "0.1.0",
   "dependencies": {
     "axios": "^1.6.2",
@@ -51,11 +51,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:stacksapien/react-tesseract-ocr.git"
+    "url": "git@github.com:sanyamj7/Thai-ocr-frontend.git"
   },
   "bugs": {
-    "url": "https://github.com/stacksapien/react-tesseract-ocr/issues"
+    "url": "https://github.com/Sanyamj7/Thai-ocr-frontend/issues"
   },
-  "author": "stacksapien <contact.vishalvermachd@gmail.com> (https://github.com/stacksapien)",
+  "author": "sanyamj7 <contact.sanyam2001.jain@gmail.com> (https://github.com/Sanyamj7)",
   "license": "MIT"
 }
