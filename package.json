@@ -3,6 +3,7 @@
   "description": "Tesseract OCR implementation in React JS",
   "version": "0.1.0",
   "dependencies": {
+    "axios": "^1.6.2",
     "bootstrap": "^4.4.1",
     "express": "^4.17.1",
     "filepond": "^4.9.4",
